@@ -46,9 +46,8 @@
 .course-counter {
   display: flex;
   flex-direction: row;
-
+  gap: 15px;
   padding: 10px 40px;
-  gap: 50px;
 }
 
 /* .course-counter-section {

@@ -1,0 +1,17 @@
+.layout {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20;
+  margin-top: 25px;
+}

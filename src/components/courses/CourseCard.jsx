@@ -23,7 +23,11 @@ const CourseCard = ({ item, setAction }) => {
           </div>
         </div>
         <div className="course-desc">
-          <p>{item.description}</p>
+          <p>
+            {item.description.length > 150
+              ? `${item.description.substring(0, 150)}...`
+              : item.description}
+          </p>
         </div>
         <div className="course-counter">
           <div

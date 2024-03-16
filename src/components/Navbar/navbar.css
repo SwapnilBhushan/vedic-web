@@ -7,8 +7,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 30px;
 }
 
 .logo img {
@@ -23,5 +23,5 @@
 }
 
 .menu-button {
-  margin-left: auto;
+  margin-left: 0px;
 }

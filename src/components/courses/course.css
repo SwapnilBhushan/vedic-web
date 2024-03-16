@@ -1,7 +1,6 @@
 .course-container {
   width: 100%;
-  height: 284px;
-
+  height: 300px;
   padding: 10px;
   margin-bottom: 20px;
   display: flex;
@@ -18,7 +17,6 @@
 .course-detail {
   width: 85%;
   border-right: 0.25px solid #d0d0d0;
-  height: 90%;
   padding: 0px 30px 20px 20px;
 }
 .course-desc p {
@@ -27,7 +25,7 @@
   line-height: 11.9px;
   margin-right: 25px;
   text-align: start;
-  margin-top: 20;
+  margin-top: 20px;
 }
 .star-icon {
   font-size: 12px;
@@ -48,8 +46,9 @@
 .course-counter {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   padding: 10px 40px;
+  gap: 50px;
 }
 
 /* .course-counter-section {
